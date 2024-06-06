@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-  width: fit-content;
-  overflow-x: hidden;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .logo-top {
@@ -330,48 +330,48 @@ body {
   font-size: 1.2vw;
 }
 
-footer .links{
+footer .links {
   font-size: 2vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-footer .descriptions{
+footer .descriptions {
   font-size: 12px;
-    padding: 0 20px;
-    color: #757575;
+  padding: 0 20px;
+  color: #757575;
 }
 
-footer .descriptions p{
-    text-align: center;
+footer .descriptions p {
+  text-align: center;
 }
 
-.last-section{
+.last-section {
   margin-top: 200px;
 }
 
 /* responsive */
 
 @media (max-width: 950px) {
-  .flex{
+  .flex {
     flex-direction: column;
     align-items: center;
     gap: 0;
   }
-  #steps{
+  #steps {
     margin-top: 520px;
   }
-  #steps p{
+  #steps p {
     font-size: 2.5vw;
   }
-  .last-section{
+  .last-section {
     margin-top: 200px;
   }
 }
 
 @media (max-width: 421px) {
-  .last-section{
+  .last-section {
     margin-top: 620px;
   }
 }
