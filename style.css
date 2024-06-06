@@ -338,7 +338,7 @@ footer .links {
 }
 
 footer .descriptions {
-  font-size: 1.2vw;
+  font-size: 12px;
   padding: 0 20px;
   color: #757575;
 }
@@ -365,13 +365,13 @@ footer .descriptions p {
   #steps p {
     font-size: 2.5vw;
   }
-  .last-section {
+  /* .last-section {
     margin-top: 200px;
-  }
+  } */
 }
 
-@media (max-width: 450px) and (min-width: 200px) {
+@media (width <= 475px) {
   .last-section {
-    margin-top: 644px;
+    margin-top: 650px;
   }
 }
