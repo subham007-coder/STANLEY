@@ -370,8 +370,8 @@ footer .descriptions p {
   }
 }
 
-@media (max-width: 421px) {
+@media (max-width: 470px) and (min-width: 200px) {
   .last-section {
-    margin-top: 620px;
+    margin-top: 644px;
   }
 }
