@@ -351,6 +351,11 @@ footer .descriptions p {
   margin-top: 200px;
 }
 
+.text-12{
+  font-size: 1vw;
+}
+
+
 /* responsive */
 
 @media (max-width: 950px) {
