@@ -35,7 +35,7 @@
 .hero {
   background-image: url(https://img.freepik.com/free-vector/abstract-holographic-foil-texture-blurred-background_1017-44132.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1717286400&semt=ais_user);
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
