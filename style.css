@@ -32,6 +32,10 @@
   height: 100%;
 }
 
+.logo_q{
+  width: 150px;
+}
+
 .hero {
   background-image: url(./image/homepage-smap-mobile.jpg);
   width: 100%;
@@ -524,7 +528,7 @@ footer .descriptions p {
 }
 
 .footer-logo img {
-  max-width: 100px;
+  width: 150px;
   margin-bottom: 10px;
 }
 
