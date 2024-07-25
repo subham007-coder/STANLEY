@@ -117,7 +117,90 @@
                   </div>
                 </div>
 
+
                 <!-- Step 2 -->
+      <div class="form-step">
+        <h2>How do you pay for your gas or electricity?</h2>
+        <div class="input-group">
+          <input type="radio" id="direct-debit" name="payment_method" value="Direct Debit" required>
+          <label for="direct-debit">Direct Debit</label>
+          <input type="radio" id="smart-meter" name="payment_method" value="Smart Meter" required>
+          <label for="smart-meter">Smart Meter</label>
+          <input type="radio" id="prepayment" name="payment_method" value="PrePayment (Non Smart)" required>
+          <label for="prepayment">PrePayment (Non Smart)</label>
+        </div>
+        <h2>Who is your current Gas/Electric Supplier?</h2>
+        <div class="input-group">
+          <input type="radio" id="british-gas" name="supplier" value="British Gas" required>
+          <label for="british-gas">British Gas</label>
+          <input type="radio" id="scottish-power" name="supplier" value="Scottish Power" required>
+          <label for="scottish-power">Scottish Power</label>
+          <input type="radio" id="sse" name="supplier" value="SSE" required>
+          <label for="sse">SSE</label>
+          <input type="radio" id="npower" name="supplier" value="nPower" required>
+          <label for="npower">nPower</label>
+          <input type="radio" id="edf-energy" name="supplier" value="EDF Energy" required>
+          <label for="edf-energy">EDF Energy</label>
+          <input type="radio" id="economy-energy" name="supplier" value="Economy Energy" required>
+          <label for="economy-energy">Economy Energy</label>
+          <input type="radio" id="eon" name="supplier" value="E.ON" required>
+          <label for="eon">E.ON</label>
+          <input type="radio" id="other-supplier" name="supplier" value="Other" required>
+          <label for="other-supplier">Other</label>
+        </div>
+        <h2>What sort of insurance plans do you currently have?</h2>
+        <div class="input-group">
+          <input type="checkbox" id="life-insurance" name="insurance_plans[]" value="Life Insurance">
+          <label for="life-insurance">Life Insurance</label>
+          <input type="checkbox" id="private-pension" name="insurance_plans[]" value="Private Pension">
+          <label for="private-pension">Private Pension</label>
+          <input type="checkbox" id="home-insurance" name="insurance_plans[]" value="Home Insurance">
+          <label for="home-insurance">Home Insurance</label>
+          <input type="checkbox" id="car-insurance" name="insurance_plans[]" value="Car Insurance">
+          <label for="car-insurance">Car Insurance</label>
+          <input type="checkbox" id="income-protection" name="insurance_plans[]" value="Income Protection">
+          <label for="income-protection">Income Protection</label>
+          <input type="checkbox" id="medical-insurance" name="insurance_plans[]" value="Medical Insurance">
+          <label for="medical-insurance">Medical Insurance</label>
+          <input type="checkbox" id="travel-insurance" name="insurance_plans[]" value="Travel Insurance">
+          <label for="travel-insurance">Travel Insurance</label>
+          <input type="checkbox" id="ppi" name="insurance_plans[]" value="PPI">
+          <label for="ppi">PPI</label>
+          <input type="checkbox" id="pet-insurance" name="insurance_plans[]" value="Pet Insurance">
+          <label for="pet-insurance">Pet Insurance</label>
+          <input type="checkbox" id="funeral-plan" name="insurance_plans[]" value="Funeral Plan">
+          <label for="funeral-plan">Funeral Plan</label>
+          <input type="checkbox" id="other-insurance" name="insurance_plans[]" value="Other">
+          <label for="other-insurance">Other</label>
+        </div>
+        <h2>Who is your current broadband provider?</h2>
+        <div class="input-group">
+          <input type="radio" id="bt" name="broadband_provider" value="BT" required>
+          <label for="bt">BT</label>
+          <input type="radio" id="ee" name="broadband_provider" value="EE" required>
+          <label for="ee">EE</label>
+          <input type="radio" id="talktalk" name="broadband_provider" value="TalkTalk" required>
+          <label for="talktalk">TalkTalk</label>
+          <input type="radio" id="sky" name="broadband_provider" value="Sky" required>
+          <label for="sky">Sky</label>
+          <input type="radio" id="virgin-media" name="broadband_provider" value="Virgin Media" required>
+          <label for="virgin-media">Virgin Media</label>
+          <input type="radio" id="vodafone" name="broadband_provider" value="Vodafone" required>
+          <label for="vodafone">Vodafone</label>
+          <input type="radio" id="plusnet" name="broadband_provider" value="Plusnet" required>
+          <label for="plusnet">Plusnet</label>
+          <input type="radio" id="other-broadband" name="broadband_provider" value="Other" required>
+          <label for="other-broadband">Other</label>
+        </div>
+        <div class="inputfield">
+          <button type="button" class="btn-prev">Previous</button>
+          <button type="button" class="btn-next">Next</button>
+        </div>
+      </div>
+
+
+
+                <!-- Step 3 -->
                 <div class="form-step">
                   <div class="inputfield">
                     <label>Type your Postcode</label>

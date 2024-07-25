@@ -416,7 +416,6 @@ footer .descriptions p {
   color: #808080;
 }
 
-
 .how-it-works {
   text-align: center;
   padding: 50px 0;
@@ -577,6 +576,93 @@ footer .descriptions p {
 .footer-disclaimer p {
   margin: 10px 0;
 }
+
+
+
+
+
+.form-step {
+  display: none;
+}
+.form-step-active {
+  display: block;
+}
+.inputfield {
+  margin-bottom: 20px;
+}
+.inputfield label {
+  display: block;
+  margin-bottom: 5px;
+}
+.inputfield input[type="text"],
+.inputfield input[type="number"],
+.inputfield input[type="email"],
+.inputfield input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.inputfield .btn-next,
+.inputfield .btn-prev,
+.inputfield .btn {
+  /* background-color: #007bff; */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+}
+.inputfield .btn-next:hover,
+.inputfield .btn-prev:hover,
+.inputfield .btn:hover {
+  background-color: #58ff63;
+}
+.inputfield .terms {
+  display: flex;
+  align-items: center;
+}
+.inputfield .terms label {
+  margin-right: 10px;
+}
+.inputfield .terms p {
+  margin: 0;
+}
+.inputfield .terms a {
+  color: #4987e4;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.input-group label {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  flex: 1;
+  text-align: center;
+}
+.input-group input[type="radio"]:checked + label,
+.input-group input[type="checkbox"]:checked + label {
+  background-color: #0062cc;
+}
+.input-group input[type="radio"],
+.input-group input[type="checkbox"] {
+  display: none;
+}
+
+
+
+
+
 
 /* responsive */
 
