@@ -659,12 +659,14 @@ footer .descriptions p {
   display: none;
 }
 
-
 #step-2 h2, label{
   font-size: 1vw;
 }
 
-
+select[multiple] {
+  height: 100px; /* Adjust height as needed */
+  /* width: 100%; Adjust width as needed */
+}
 
 /* responsive */
 
