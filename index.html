@@ -119,7 +119,7 @@
 
 
                 <!-- Step 2 -->
-      <div class="form-step">
+      <div class="form-step" id="step-2">
         <h2>How do you pay for your gas or electricity?</h2>
         <div class="input-group">
           <input type="radio" id="direct-debit" name="payment_method" value="Direct Debit" required>
@@ -192,6 +192,15 @@
           <input type="radio" id="other-broadband" name="broadband_provider" value="Other" required>
           <label for="other-broadband">Other</label>
         </div>
+        <h2>How long have you been with your current home broadband provider?</h2>
+    <div class="input-group">
+      <input type="radio" id="24-months" name="broadband_duration" value="24 months +" required>
+      <label for="24-months">24 months +</label>
+      <input type="radio" id="12-24-months" name="broadband_duration" value="12-24 months" required>
+      <label for="12-24-months">12-24 months</label>
+      <input type="radio" id="0-12-months" name="broadband_duration" value="0-12 months" required>
+      <label for="0-12-months">0-12 months</label>
+    </div>
         <div class="inputfield">
           <button type="button" class="btn-prev">Previous</button>
           <button type="button" class="btn-next">Next</button>
