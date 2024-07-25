@@ -278,7 +278,7 @@
 	cursor: pointer;
 	outline: inherit;
 
-  background-color: #16A065;
+  background-color: #d9615d;
   color: #fff;
   padding: 5px 15px;
   margin-top: 15px;
@@ -286,7 +286,7 @@
 }
 
 .btn-prev:hover {
-  background-color: #58ff63;
+  background-color: #d9615d;
   color: #000;
 }
 
@@ -300,7 +300,7 @@
 	cursor: pointer;
 	outline: inherit;
 
-  background-color: #16A065;
+  background-color: #e26964;
   color: #fff;
   padding: 5px 15px;
   margin-top: 15px;
@@ -309,7 +309,7 @@
 }
 
 .btn-next:hover {
-  background-color: #58ff63;
+  background-color: #e46662;
   color: #000;
 }
 
@@ -618,7 +618,7 @@ footer .descriptions p {
 .inputfield .btn-next:hover,
 .inputfield .btn-prev:hover,
 .inputfield .btn:hover {
-  background-color: #58ff63;
+  background-color: #de3a34;
 }
 .inputfield .terms {
   display: flex;
