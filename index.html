@@ -51,7 +51,11 @@
                 action="https://api.web3forms.com/submit"
                 method="POST"
               >
-              <input type="hidden" name="access_key" value="27769321-0cbb-4812-ab5f-d5af64e6eea5">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="27769321-0cbb-4812-ab5f-d5af64e6eea5"
+                />
                 <!-- Step 1 -->
                 <div class="form-step form-step-active">
                   <div class="form-check form-check-inline">
@@ -118,79 +122,97 @@
                   </div>
                 </div>
 
-
                 <!-- Step 2 -->
                 <div class="form-step" id="step-2">
                   <h2>How do you pay for your gas or electricity?</h2>
                   <div class="input-group">
-                      <select id="payment_method" name="payment_method" required>
-                          <option value="Direct Debit">Direct Debit</option>
-                          <option value="Smart Meter">Smart Meter</option>
-                          <option value="PrePayment (Non Smart)">PrePayment (Non Smart)</option>
-                      </select>
+                    <select id="payment_method" name="payment_method" required>
+                      <option value="Direct Debit">Direct Debit</option>
+                      <option value="Smart Meter">Smart Meter</option>
+                      <option value="PrePayment (Non Smart)">
+                        PrePayment (Non Smart)
+                      </option>
+                    </select>
                   </div>
-                  
+
                   <h2>Who is your current Gas/Electric Supplier?</h2>
                   <div class="input-group">
-                      <select id="supplier" name="supplier" required>
-                          <option value="British Gas">British Gas</option>
-                          <option value="Scottish Power">Scottish Power</option>
-                          <option value="SSE">SSE</option>
-                          <option value="nPower">nPower</option>
-                          <option value="EDF Energy">EDF Energy</option>
-                          <option value="Economy Energy">Economy Energy</option>
-                          <option value="E.ON">E.ON</option>
-                          <option value="Other">Other</option>
-                      </select>
+                    <select id="supplier" name="supplier" required>
+                      <option value="British Gas">British Gas</option>
+                      <option value="Scottish Power">Scottish Power</option>
+                      <option value="SSE">SSE</option>
+                      <option value="nPower">nPower</option>
+                      <option value="EDF Energy">EDF Energy</option>
+                      <option value="Economy Energy">Economy Energy</option>
+                      <option value="E.ON">E.ON</option>
+                      <option value="Other">Other</option>
+                    </select>
                   </div>
-                  
+
                   <h2>What sort of insurance plans do you currently have?</h2>
                   <div class="input-group">
-                      <select id="insurance_plans" name="insurance_plans" required>
-                          <option value="Life Insurance">Life Insurance</option>
-                          <option value="Private Pension">Private Pension</option>
-                          <option value="Home Insurance">Home Insurance</option>
-                          <option value="Car Insurance">Car Insurance</option>
-                          <option value="Income Protection">Income Protection</option>
-                          <option value="Medical Insurance">Medical Insurance</option>
-                          <option value="Travel Insurance">Travel Insurance</option>
-                          <option value="PPI">PPI</option>
-                          <option value="Pet Insurance">Pet Insurance</option>
-                          <option value="Funeral Plan">Funeral Plan</option>
-                          <option value="Other">Other</option>
-                      </select>
+                    <select
+                      id="insurance_plans"
+                      name="insurance_plans"
+                      required
+                    >
+                      <option value="Life Insurance">Life Insurance</option>
+                      <option value="Private Pension">Private Pension</option>
+                      <option value="Home Insurance">Home Insurance</option>
+                      <option value="Car Insurance">Car Insurance</option>
+                      <option value="Income Protection">
+                        Income Protection
+                      </option>
+                      <option value="Medical Insurance">
+                        Medical Insurance
+                      </option>
+                      <option value="Travel Insurance">Travel Insurance</option>
+                      <option value="PPI">PPI</option>
+                      <option value="Pet Insurance">Pet Insurance</option>
+                      <option value="Funeral Plan">Funeral Plan</option>
+                      <option value="Other">Other</option>
+                    </select>
                   </div>
-                  
+
                   <h2>Who is your current broadband provider?</h2>
                   <div class="input-group">
-                      <select id="broadband_provider" name="broadband_provider" required>
-                          <option value="BT">BT</option>
-                          <option value="EE">EE</option>
-                          <option value="TalkTalk">TalkTalk</option>
-                          <option value="Sky">Sky</option>
-                          <option value="Virgin Media">Virgin Media</option>
-                          <option value="Vodafone">Vodafone</option>
-                          <option value="Plusnet">Plusnet</option>
-                          <option value="Other">Other</option>
-                      </select>
+                    <select
+                      id="broadband_provider"
+                      name="broadband_provider"
+                      required
+                    >
+                      <option value="BT">BT</option>
+                      <option value="EE">EE</option>
+                      <option value="TalkTalk">TalkTalk</option>
+                      <option value="Sky">Sky</option>
+                      <option value="Virgin Media">Virgin Media</option>
+                      <option value="Vodafone">Vodafone</option>
+                      <option value="Plusnet">Plusnet</option>
+                      <option value="Other">Other</option>
+                    </select>
                   </div>
-                  
-                  <h2>How long have you been with your current home broadband provider?</h2>
+
+                  <h2>
+                    How long have you been with your current home broadband
+                    provider?
+                  </h2>
                   <div class="input-group">
-                      <select id="broadband_duration" name="broadband_duration" required>
-                          <option value="24 months +">24 months +</option>
-                          <option value="12-24 months">12-24 months</option>
-                          <option value="0-12 months">0-12 months</option>
-                      </select>
+                    <select
+                      id="broadband_duration"
+                      name="broadband_duration"
+                      required
+                    >
+                      <option value="24 months +">24 months +</option>
+                      <option value="12-24 months">12-24 months</option>
+                      <option value="0-12 months">0-12 months</option>
+                    </select>
                   </div>
-                  
+
                   <div class="inputfield">
-                      <button type="button" class="btn-prev">Previous</button>
-                      <button type="button" class="btn-next">Next</button>
+                    <button type="button" class="btn-prev">Previous</button>
+                    <button type="button" class="btn-next">Next</button>
                   </div>
-              </div>
-
-
+                </div>
 
                 <!-- Step 3 -->
                 <div class="form-step">
@@ -235,15 +257,30 @@
                     </label>
                     <p>
                       You must check this in order to proceed. I accept the
-                      <a href="#" type="button" data-bs-target="#privacyPolicyModal" data-bs-toggle="modal" style="color: #4987e4">Privacy Policy</a> and the
-                      <a href="#" type="button" data-bs-target="#terms" data-bs-toggle="modal" style="color: #4987e4">Terms</a>. We may share
-                      your details with identity verification organisations
-                      which help other organisations verify your identity and
-                      prevent others from misusing your details.
+                      <a
+                        href="#"
+                        type="button"
+                        data-bs-target="#privacyPolicyModal"
+                        data-bs-toggle="modal"
+                        style="color: #4987e4"
+                        >Privacy Policy</a
+                      >
+                      and the
+                      <a
+                        href="#"
+                        type="button"
+                        data-bs-target="#terms"
+                        data-bs-toggle="modal"
+                        style="color: #4987e4"
+                        >Terms</a
+                      >. We may share your details with identity verification
+                      organisations which help other organisations verify your
+                      identity and prevent others from misusing your details.
                     </p>
                   </div>
                   <div class="inputfield">
-                    <button type="button" class="btn-prev">Previous</button> &nbsp;
+                    <button type="button" class="btn-prev">Previous</button>
+                    &nbsp;
                     <input
                       type="submit"
                       value="CONTINUE 100% FREE"
@@ -356,8 +393,30 @@
           </div>
           <div class="footer-disclaimer">
             <p>
-                discountdendeals.co.uk is owned and operated by Energy Saving Centre. The information that you provide will be handled by Energy Saving Centre. By submitting a completed survey, you agree that Energy Saving Centre may use your email address to (i) send information and promotions from discountdendeals.co.uk (ii) send information and promotions concerning third party products and services (iii) supply your contact information and survey responses to companies so that they may use them to contact you by mail, phone and email to send offers (iv) promote services based on your preferences. You can gain access to your personal information at any time by contacting us at contact us or by post to Energy Saving Centre, Vaughan Chambers, Vaughan Road, Harpenden, United Kingdom, AL5 4EE * Energy Saving Centre has no relationship whatsoever, including, but not limited to, affiliation, sponsorship or endorsement, with the manufacturers of any of the listed products, or any of the identified retailers. Energy Saving Centre receives marketing fees from advertisers including financial institutions. You should always read their terms and conditions and/or product disclosure statement. Energy Saving Centre takes your privacy seriously and can assure that your data will be used only in accordance with our Privacy Policy which we ask that you read and understand it. By submitting a completed survey you are agreeing to the Terms and Conditions and have read and understood the Privacy Policy.
-
+              discountdendeals.co.uk is owned and operated by Energy Saving
+              Centre. The information that you provide will be handled by Energy
+              Saving Centre. By submitting a completed survey, you agree that
+              Energy Saving Centre may use your email address to (i) send
+              information and promotions from discountdendeals.co.uk (ii) send
+              information and promotions concerning third party products and
+              services (iii) supply your contact information and survey
+              responses to companies so that they may use them to contact you by
+              mail, phone and email to send offers (iv) promote services based
+              on your preferences. You can gain access to your personal
+              information at any time by contacting us at contact us or by post
+              to Energy Saving Centre, Vaughan Chambers, Vaughan Road,
+              Harpenden, United Kingdom, AL5 4EE * Energy Saving Centre has no
+              relationship whatsoever, including, but not limited to,
+              affiliation, sponsorship or endorsement, with the manufacturers of
+              any of the listed products, or any of the identified retailers.
+              Energy Saving Centre receives marketing fees from advertisers
+              including financial institutions. You should always read their
+              terms and conditions and/or product disclosure statement. Energy
+              Saving Centre takes your privacy seriously and can assure that
+              your data will be used only in accordance with our Privacy Policy
+              which we ask that you read and understand it. By submitting a
+              completed survey you are agreeing to the Terms and Conditions and
+              have read and understood the Privacy Policy.
             </p>
             <p>©2024 discountdendeals.co.uk All Right Reserved</p>
           </div>
