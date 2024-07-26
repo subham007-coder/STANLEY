@@ -682,13 +682,17 @@ select[multiple] {
   #steps p {
     font-size: 2.5vw;
   }
-  /* .last-section {
-    margin-top: 200px;
-  } */
 }
 
-/* @media (width <= 475px) {
-  .last-section {
-    margin-top: 650px;
+@media (max-width: 600px) {
+  .footer-container{
+    flex-direction: column;
+    align-items: center;
   }
-} */
+  .footer-links h3{
+    color: yellow;
+  }
+  .footer-links{
+    text-align: center;
+  }
+}
