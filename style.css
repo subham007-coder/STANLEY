@@ -105,7 +105,7 @@
   margin-bottom: 25px;
   color: #fec107;
   text-transform: uppercase;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .wrapperr .form {
