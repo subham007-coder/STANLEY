@@ -180,107 +180,159 @@
 
 
                 <!-- Step 3 -->
-                <div class="form-step" id="step-2">
-                  <h2>How do you pay for your gas or electricity?</h2>
-                  <div class="input-group">
-                    <select id="payment_method" name="payment_method" required>
-                      <option value="" disabled selected>Select Payment Method</option>
-                      <option value="Direct Debit">Direct Debit</option>
-                      <option value="Smart Meter">Smart Meter</option>
-                      <option value="PrePayment (Non Smart)">
-                        PrePayment (Non Smart)
-                      </option>
-                    </select>
-                  </div>
+<div class="form-step" id="step-2">
+  <h2>Are you a home owner?</h2>
+  <div class="input-group">
+    <select id="home_owner" name="home_owner" required>
+      <option value="" disabled selected>Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
 
-                  <h2>Who is your current Gas/Electric Supplier?</h2>
-                  <div class="input-group">
-                    <select id="supplier" name="supplier" required>
-                      <option value="" disabled selected>Select Your Supplier</option>
-                      <option value="British Gas">British Gas</option>
-                      <option value="Scottish Power">Scottish Power</option>
-                      <option value="SSE">SSE</option>
-                      <option value="nPower">nPower</option>
-                      <option value="EDF Energy">EDF Energy</option>
-                      <option value="Economy Energy">Economy Energy</option>
-                      <option value="E.ON">E.ON</option>
-                      <option value="Other">Other</option>
-                    </select>
-                  </div>
+  <h2>Do you have a dog?</h2>
+  <div class="input-group">
+    <select id="have_dog" name="have_dog" required>
+      <option value="" disabled selected>Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
 
-                  <h2>What sort of insurance plans do you currently have?</h2>
-                  <div class="input-group">
-                    <select
-                      id="insurance_plans"
-                      name="insurance_plans"
-                      required
-                    >
-                    <option value="" disabled selected>Select insurance plans</option>
-                      <option value="Life Insurance">Life Insurance</option>
-                      <option value="Private Pension">Private Pension</option>
-                      <option value="Home Insurance">Home Insurance</option>
-                      <option value="Car Insurance">Car Insurance</option>
-                      <option value="Income Protection">
-                        Income Protection
-                      </option>
-                      <option value="Medical Insurance">
-                        Medical Insurance
-                      </option>
-                      <option value="Travel Insurance">Travel Insurance</option>
-                      <option value="PPI">PPI</option>
-                      <option value="Pet Insurance">Pet Insurance</option>
-                      <option value="Funeral Plan">Funeral Plan</option>
-                      <option value="Other">Other</option>
-                    </select>
-                  </div>
+  <h2>Is your home a House, Bungalow, Maisonettes, Flat, or Other?</h2>
+  <div class="input-group">
+    <select id="home_type" name="home_type" required>
+      <option value="" disabled selected>Select Home Type</option>
+      <option value="House">House</option>
+      <option value="Bungalow">Bungalow</option>
+      <option value="Maisonettes">Maisonettes</option>
+      <option value="Flat">Flat</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
 
-                  <h2>Who is your current broadband provider?</h2>
-                  <div class="input-group">
-                    <select
-                      id="broadband_provider"
-                      name="broadband_provider"
-                      required
-                    >
-                    <option value="" disabled selected>Select broadband provider</option>
-                      <option value="BT">BT</option>
-                      <option value="EE">EE</option>
-                      <option value="TalkTalk">TalkTalk</option>
-                      <option value="Sky">Sky</option>
-                      <option value="Virgin Media">Virgin Media</option>
-                      <option value="Vodafone">Vodafone</option>
-                      <option value="Plusnet">Plusnet</option>
-                      <option value="Other">Other</option>
-                    </select>
-                  </div>
+  <h2>How do you pay for your gas or electricity?</h2>
+  <div class="input-group">
+    <select id="payment_method" name="payment_method" required>
+      <option value="" disabled selected>Select Payment Method</option>
+      <option value="Direct Debit">Direct Debit</option>
+      <option value="Smart Meter">Smart Meter</option>
+      <option value="PrePayment (Non Smart)">PrePayment (Non Smart)</option>
+      <option value="Standing Order">Standing Order</option>
+      <option value="Receipt Of Bill">Receipt Of Bill</option>
+    </select>
+  </div>
 
-                  <h2>
-                    How long have you been with your current home broadband
-                    provider?
-                  </h2>
-                  <div class="input-group">
-                    <select
-                      id="broadband_duration"
-                      name="broadband_duration"
-                      required
-                    >
-                    <option value="" disabled selected>Select</option>
-                      <option value="24 months +">24 months +</option>
-                      <option value="12-24 months">12-24 months</option>
-                      <option value="0-12 months">0-12 months</option>
-                    </select>
-                  </div>
+  <h2>Who is your current Gas/Electric Supplier?</h2>
+  <div class="input-group">
+    <select id="supplier" name="supplier" required>
+      <option value="" disabled selected>Select Your Supplier</option>
+      <option value="British Gas">British Gas</option>
+      <option value="Scottish Power">Scottish Power</option>
+      <option value="SSE">SSE</option>
+      <option value="nPower">nPower</option>
+      <option value="EDF Energy">EDF Energy</option>
+      <option value="Economy Energy">Economy Energy</option>
+      <option value="E.On">E.On</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
 
-                  <div class="inputfield">
-                    <button type="button" class="btn-prev">Previous</button>
-                    &nbsp;
-                    <input
-                      type="submit"
-                      value="CONTINUE 100% FREE"
-                      class="btn"
-                    />
-                  </div>
-                </div>
- 
+  <h2>Are you Self Employed, Employed, Retired or Semi Retired?</h2>
+  <div class="input-group">
+    <select id="employment_status" name="employment_status" required>
+      <option value="" disabled selected>Select Employment Status</option>
+      <option value="Self Employed">Self Employed</option>
+      <option value="Employed">Employed</option>
+      <option value="Retired">Retired</option>
+      <option value="Semi Retired">Semi Retired</option>
+    </select>
+  </div>
+
+  <h2>Who is your current broadband provider?</h2>
+  <div class="input-group">
+    <select id="broadband_provider" name="broadband_provider" required>
+      <option value="" disabled selected>Select Broadband Provider</option>
+      <option value="BT">BT</option>
+      <option value="Sky">Sky</option>
+      <option value="EE">EE</option>
+      <option value="3">3</option>
+      <option value="Virgin Media">Virgin Media</option>
+      <option value="OneStream">OneStream</option>
+      <option value="Plusnet">Plusnet</option>
+      <option value="Shell Energy">Shell Energy</option>
+      <option value="Community Fiber">Community Fiber</option>
+      <option value="Connect Fiber">Connect Fiber</option>
+      <option value="Vodafone">Vodafone</option>
+      <option value="Talk Talk">Talk Talk</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <h2>How long have you been with your current broadband provider?</h2>
+  <div class="input-group">
+    <select id="broadband_duration" name="broadband_duration" required>
+      <option value="" disabled selected>Select Duration</option>
+      <option value="24 months +">24 months +</option>
+      <option value="12-24 months">12-24 months</option>
+      <option value="0-12 months">0-12 months</option>
+    </select>
+  </div>
+
+  <h2>What sort of insurance plans do you currently have?</h2>
+  <div class="input-group">
+    <select id="insurance_plans" name="insurance_plans" required>
+      <option value="Life Insurance">Life Insurance</option>
+      <option value="Private Pension">Private Pension</option>
+      <option value="Home Insurance">Home Insurance</option>
+      <option value="Car Insurance">Car Insurance</option>
+      <option value="Income Protection">Income Protection</option>
+      <option value="Medical Insurance">Medical Insurance</option>
+      <option value="Travel Insurance">Travel Insurance</option>
+      <option value="PPI">PPI</option>
+      <option value="Pet Insurance">Pet Insurance</option>
+      <option value="Funeral Plan">Funeral Plan</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <h2>Do you currently have a loft in your house?</h2>
+  <div class="input-group">
+    <select id="has_loft" name="has_loft" required>
+      <option value="" disabled selected>Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
+
+  <h2>Has your loft been converted into a bedroom?</h2>
+  <div class="input-group">
+    <select id="loft_converted" name="loft_converted" required>
+      <option value="" disabled selected>Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
+
+  <h2>Do you have solar panels?</h2>
+  <div class="input-group">
+    <select id="has_solar_panels" name="has_solar_panels" required>
+      <option value="" disabled selected>Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
+
+  <div class="inputfield">
+    <button type="button" class="btn-prev">Previous</button>
+    <button type="button" class="btn-next">Next</button>
+  </div>
+</div>
+
+                
+
+
+
               </form>
             </div>
           </div>
