@@ -25,26 +25,31 @@ document.addEventListener("DOMContentLoaded", function () {
   
     function validateForm() {
       const currentStep = formSteps[formStepsNum];
-      const inputs = currentStep.querySelectorAll("input[required], input[type='radio']");
+      const inputs = currentStep.querySelectorAll("input[required], input[type='radio'], input[type='checkbox']");
       let isValid = true;
-  
+    
       inputs.forEach((input) => {
         if (input.type === "radio") {
           const radioGroup = currentStep.querySelectorAll(`input[name="${input.name}"]`);
           if (!Array.from(radioGroup).some(radio => radio.checked)) {
             isValid = false;
           }
+        } else if (input.type === "checkbox") {
+          if (!input.checked) {
+            isValid = false;
+          }
         } else if (!input.value.trim()) {
           isValid = false;
         }
       });
-  
+    
       if (!isValid) {
         alert("Please fill in all required fields.");
       }
-  
+    
       return isValid;
     }
+    
   });
 
   // cookies send

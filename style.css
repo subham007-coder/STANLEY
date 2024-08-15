@@ -105,7 +105,7 @@
   margin-bottom: 25px;
   color: #fec107;
   text-transform: uppercase;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .wrapperr .form {
@@ -667,6 +667,8 @@ select[multiple] {
   height: 100px; /* Adjust height as needed */
   /* width: 100%; Adjust width as needed */
 }
+
+
 
 /* responsive */
 
