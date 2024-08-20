@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     function validateForm() {
       const currentStep = formSteps[formStepsNum];
-      const inputs = currentStep.querySelectorAll("input[required], input[type='radio'], input[type='checkbox']");
+      const inputs = currentStep.querySelectorAll("input[required], input[type='radio']");
       let isValid = true;
     
       inputs.forEach((input) => {
