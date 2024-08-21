@@ -639,6 +639,66 @@
                     >Cookie Policy</a
                   >
                 </li>
+                <li>
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#optOut"
+                    >Opt-Out</a
+                  >
+                </li>
+                
+                <div class="modal fade" id="optOut" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-black" id="exampleModalLabel">Opt-Out</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+
+                        <div class="container mt-2">
+                          <div class="text-center mb-0">
+                              <p class="h4 text-danger">Notice</p>
+                              <!-- <h2 class="text-light">We are sorry to see you go. By completing this form you will opt out of any future contact from YLM UK or our partners.</h2> -->
+                          </div>
+                          <form class="bg-dark p-4 rounded">
+                              <div class="form-group">
+                                  <label for="name" class="text-light">Name <span class="text-danger">*</span></label>
+                                  <input type="text" id="name" name="name" class="form-control" placeholder="E.g. John Doe" required>
+                                  <small class="form-text text-danger error">This field is required. Please input your name.</small>
+                              </div>
+                              <div class="form-group">
+                                  <label for="phone" class="text-light">Phone Number</label>
+                                  <input type="text" id="phone" name="phone" class="form-control" placeholder="E.g. +1 3004005000">
+                              </div>
+                              <div class="form-group">
+                                  <label for="email" class="text-light">Email Address <span class="text-danger">*</span></label>
+                                  <input type="email" id="email" name="email" class="form-control" placeholder="E.g. john@doe.com" required>
+                                  <small class="form-text text-danger error">This field is required. Please input a valid email.</small>
+                              </div>
+                              <div class="form-group">
+                                  <label for="postcode" class="text-light">Postcode</label>
+                                  <input type="text" id="postcode" name="postcode" class="form-control" placeholder="E.g. LB1 1BN">
+                              </div>
+                              <button type="submit" class="btn btn-primary btn-block mt-3">Send Message</button>
+                          </form>
+                      </div>
+
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                
               </ul>
             </div>
           </div>
@@ -10725,5 +10785,8 @@
         </div>
       </div>
     </div>
+
+   
+
   </body>
 </html>
